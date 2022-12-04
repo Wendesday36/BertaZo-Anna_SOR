@@ -116,8 +116,8 @@ td{
     main{
         display: grid;
         grid-template-areas: "h"
-        "ar"
         "n"
+        "ar"
         "f"
         ;
     }
