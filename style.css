@@ -57,14 +57,14 @@ article ul li{
 article ul {
     margin: auto;
 }
-nav{
+.menu{
     grid-area: n;
     color: red;
     font-weight: bold;
     box-sizing: border-box;
     max-width: 100%;
 }
-nav ul li{
+.menu ul li{
     text-decoration: none;
     list-style: none;
     border: rgb(255, 255, 255) solid 1px;
@@ -73,15 +73,15 @@ nav ul li{
     gap: 10px;
     
 }
-nav ul li a{
+.menu ul li a{
     color: red;
     text-decoration: none;
 }
-nav ul li a:hover{
+.menu ul li a:hover{
     color: white;
     
 }
-nav ul li:hover, li:active {
+.menu ul li:hover, li:active {
     background-color: green;
     color: red;
 }  
